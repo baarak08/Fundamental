@@ -12,7 +12,7 @@ console.log(perimeter)
 3 // Diameter, Circumtance and Area Lingkaran
 
 //Diameter (r = jari-jari) 
-let r = 10
+let r = 5
 let Diameter = 2 * r
 
 //Circumtance
@@ -58,7 +58,6 @@ let monthSum = Math.floor(month);
 let modMonth = modYear % 30;
 
 let daySum = modMonth
-let hourSum = daySum.getTime ()
 
 console.log(yearSum + " " + "tahun" + " " + monthSum + " " + "bulan" + " " + daySum + " " + "hari");
 

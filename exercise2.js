@@ -6,6 +6,15 @@ console.log(F);
 
 }
 
+function contofa (cel){
+    let fah = (cel * (9/5)) + 32
+    console.log(fah);
+
+}
+
+contofa (5)
+
+
 2 // Menentukan Gaanjil Genap
 for (let num = 1; num <= 5; num++) {
     if (num % 2 === 0) {
@@ -17,3 +26,10 @@ for (let num = 1; num <= 5; num++) {
 }
 
 3 // 
+
+4 // Find SUM 1 to N
+for (let num = 1; num <= 5; num++){
+
+
+
+}
