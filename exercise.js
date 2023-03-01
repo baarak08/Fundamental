@@ -41,7 +41,7 @@ console.log(aC);
 let date1 = new Date('2023-02-28');
 let date2 = new Date('2023-03-25');
 
-let differenceTime = date1.getTime() - date2.getTime();
+let differenceTime = date2.getTime() - date1.getTime();
 let differenceDay = differenceTime / (1000 * 3600 * 24);
 console.log(differenceDay + " " + "Hari")
 
